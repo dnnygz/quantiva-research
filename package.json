@@ -1,0 +1,27 @@
+{
+  "name": "quantum-aware",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Quantum-Aware Research Explorer — unified exploration of VQC generalization results",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev:web": "npm run dev -w @qa/web",
+    "dev:api": "npm run dev -w @qa/api",
+    "db:up": "docker compose up -d db",
+    "db:migrate": "npm run db:migrate -w @qa/api",
+    "db:seed": "npm run db:seed -w @qa/api",
+    "seed:build": "tsx data/seed/build.ts",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build": "npm run build -w @qa/web"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6",
+    "typescript": "~5.9.3"
+  }
+}

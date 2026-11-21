@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "a-resplits-30",
+    "line": "factors-behind-generalization",
+    "name": "30 stratified re-splits (70/30)",
+    "evaluation": "30 seeds (0–29) · stratified 70/30 split per seed · test split · means over 30 seeds",
+    "description": "Features standardized, reduced to four principal components and rescaled to [−π, π], all fitted on the training part only. Four-qubit VQC with angle encoding, two RY/RZ layers with a CNOT chain, ⟨Z⟩ on four qubits, linear layer and sigmoid; exact noise-free simulation; full-batch Adam, learning rate 0.05, 200 epochs. Comparators receive the same four inputs and splits. Differences are paired by seed.",
+    "limitations": "The 30 seeds are re-splits of the same data, so intervals are optimistic. Factor intervals are uncorrected. Noise-free simulation with four qubits and one circuit family. Learning rate and epochs were fixed once and shared by the VQC and the MLP."
+  },
+  {
+    "slug": "a-frequency-tasks",
+    "line": "factors-behind-generalization",
+    "name": "Synthetic frequency tasks",
+    "evaluation": "New sample of 600 points per seed · 30 seeds · test split · means over 30 seeds",
+    "description": "Synthetic tasks whose label depends on frequency k (additive or product of sines). Used to test whether matching the encoding frequency to the target recovers performance.",
+    "limitations": "Synthetic tasks only; extra frequencies did not help on the real datasets. Noise-free simulation."
+  },
+  {
+    "slug": "b-dev-folds",
+    "line": "representation-and-readout",
+    "name": "5 development folds × 3 seeds",
+    "evaluation": "835 development patients · 5 stratified folds (668 train / 167 validation) · seeds 1729, 1730, 1731 · fold-first means",
+    "description": "Gene filtering, TMM factors, log2-CPM, scaling and PCA fitted on each fold’s training subset. Three seed values averaged within a fold, then the five fold means averaged. Paired differences computed within matching fold–seed cells before aggregation. Analytic, noiseless CPU simulation; AdamW (lr 0.01, weight decay 0.001), batch size 32, 50 epochs per stage. The 209 locked-test patients were not used.",
+    "limitations": "Validation folds of a reused development set: standard deviations between fold means describe variation among reused partitions and are not confidence intervals. No confirmatory statistical tests, no fresh cohort, a single binary biomedical task. Not a clinical tool."
+  }
+]

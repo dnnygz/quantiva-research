@@ -1,0 +1,23 @@
+name = "quantum-aware-api"
+main = "src/index.ts"
+compatibility_date = "2025-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+# PostgreSQL (Railway in production) through Cloudflare Hyperdrive.
+# Create it with: npx wrangler hyperdrive create quantum-aware-db --connection-string="<RAILWAY_DATABASE_URL>"
+# and replace the placeholder id below.
+# Local development gets its connection string from DATABASE_URL via scripts/dev.mjs.
+[[hyperdrive]]
+binding = "HYPERDRIVE"
+id = "00000000000000000000000000000000"
+
+# Figure images. Create with: npx wrangler r2 bucket create quantum-aware-figures
+[[r2_buckets]]
+binding = "FIGURES"
+bucket_name = "quantum-aware-figures"
+
+# Local defaults. In production set FRONTEND_ORIGIN to the Pages URL and COOKIE_SECURE = "true"
+# (e.g. via [env.production.vars] or the dashboard).
+[vars]
+FRONTEND_ORIGIN = "http://localhost:5173"
+COOKIE_SECURE = "false"

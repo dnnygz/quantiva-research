@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "factors-behind-generalization",
+    "code": "A",
+    "name": "Factors Behind Generalization",
+    "shortName": "Factors",
+    "manuscriptTitle": "A Controlled Analysis of the Factors Behind the Generalization Gap of Variational Quantum Classifiers in Simulated Environments",
+    "description": "Measures the train–test gap of a four-qubit VQC against five classical models with the same four inputs on four tabular datasets, then varies one factor at a time: input representation, data encoding, circuit capacity and readout, training-set size, optimization budget and a classical teacher.",
+    "sortOrder": 1
+  },
+  {
+    "slug": "representation-and-readout",
+    "code": "B",
+    "name": "Representation & Readout",
+    "shortName": "Readout",
+    "manuscriptTitle": "Learned Representations, Geometry, and Variational Readouts: A TCGA-BRCA Case Study",
+    "description": "Follows a four-qubit VQC on an ER-status task from TCGA-BRCA RNA-seq: fixed principal components versus a learned encoder, frozen-embedding readout controls, supervised quantum-fidelity and Gaussian geometry, and a same-embedding comparison of quantum and logistic readouts.",
+    "sortOrder": 2
+  }
+]

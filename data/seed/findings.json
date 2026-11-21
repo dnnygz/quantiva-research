@@ -1,0 +1,241 @@
+[
+  {
+    "slug": "input-representation",
+    "question": "Does input representation influence VQC generalization?",
+    "context": "Four qubits force the input down to four numbers. Both lines changed how those numbers are produced while keeping the circuit fixed.",
+    "agreement": "converging",
+    "openQuestions": "How much of the learned-encoder improvement comes from the PCA32 input versus the learned compression remains unattributed.",
+    "findings": [
+      {
+        "line": "factors-behind-generalization",
+        "observation": "Reducing to four components cost the classical models up to 0.066 test AUC on Ionosphere (SVM) and 0.186 on the synthetic data (XGBoost). Replacing the components by the four features with the highest F-value raised the VQC test AUC on Ionosphere by 0.040 and lowered it on the synthetic data by 0.047.",
+        "interpretation": "The choice of reduction changes the sign of the VQC–MLP difference on Ionosphere (−0.033 to +0.010), so the representation is part of what a reported gap measures. Verdict for H1: partially supported.",
+        "limitations": "Intervals are uncorrected and seeds are re-splits of the same data.",
+        "experiments": [
+          "a-baseline-vqc-ionosphere",
+          "a-baseline-mlp-ionosphere",
+          "a-baseline-svm-ionosphere",
+          "a-baseline-vqc-synthetic",
+          "a-baseline-mlp-synthetic",
+          "a-baseline-svm-synthetic"
+        ],
+        "status": "published",
+        "sortOrder": 0
+      },
+      {
+        "line": "representation-and-readout",
+        "observation": "A learned encoder raised the VQC validation AUC from 0.8297 (four fixed principal components) to 0.9215, while training AUC rose to 0.9993. Logistic regression on the frozen quantum-trained encoder reached 0.9371, and logistic regression on four principal components 0.9490.",
+        "interpretation": "Representation learning improved the VQC, but simpler classical readouts on the same or simpler inputs remained competitive.",
+        "limitations": "The change includes both the PCA32 input and the learned compression, so it cannot be assigned to one component.",
+        "experiments": [
+          "b-representation-pca4-vqc",
+          "b-representation-encoder-vqc",
+          "b-representation-frozen-encoder-lr",
+          "b-representation-pca4-lr"
+        ],
+        "status": "published",
+        "sortOrder": 1
+      }
+    ],
+    "status": "published",
+    "sortOrder": 0
+  },
+  {
+    "slug": "fit-vs-generalization",
+    "question": "Does better training fit imply better generalization?",
+    "context": "Both lines report training and held-out AUC for the same pipelines, so fit and generalization can be read side by side.",
+    "agreement": "converging",
+    "openQuestions": "Whether the train–validation divergence is driven by the encoder, the readout or the fitting budget is not separated in either line.",
+    "findings": [
+      {
+        "line": "factors-behind-generalization",
+        "observation": "Between 25 and 800 epochs the VQC gap rose on every dataset, as it did for the MLP; going from 200 to 800 epochs raised the gap on the synthetic data and Blood Transfusion without improving test AUC. With shuffled labels the VQC reached a training AUC of 0.605–0.671, like the MLP (0.537–0.651), while Random Forest (0.959–1.000) and XGBoost (0.847–0.998) memorized them almost perfectly.",
+        "interpretation": "A longer fit increases the gap for every model; the VQC can memorize random labels, but far less than tree ensembles.",
+        "limitations": "Learning rate and epochs were fixed once and shared by the VQC and the MLP.",
+        "experiments": [
+          "a-optimization-vqc-25ep-wdbc",
+          "a-optimization-vqc-800ep-wdbc",
+          "a-optimization-vqc-25ep-ionosphere",
+          "a-optimization-vqc-800ep-ionosphere",
+          "a-optimization-vqc-25ep-synthetic",
+          "a-optimization-vqc-800ep-synthetic",
+          "a-optimization-vqc-25ep-blood-transfusion",
+          "a-optimization-vqc-800ep-blood-transfusion",
+          "a-shuffled-labels-vqc",
+          "a-shuffled-labels-mlp",
+          "a-shuffled-labels-rf",
+          "a-shuffled-labels-xgboost"
+        ],
+        "status": "published",
+        "sortOrder": 0
+      },
+      {
+        "line": "representation-and-readout",
+        "observation": "With staged quantum-fidelity training, the VQC reached 0.9980 training AUC and 0.9300 validation AUC; logistic regression on identical frozen coordinates reached 0.9683 and 0.9415. The mean validation advantage of 0.0115 varied across folds and reversed in fold 4.",
+        "interpretation": "A higher training fit coexisted with a lower validation ranking than a classical readout on the same coordinates.",
+        "limitations": "The VQC and LR differ in function family, intercept and scale, optimizer and regularization; this is not a parameter-matched causal comparison.",
+        "experiments": [
+          "b-geometry-nqe-q",
+          "b-same-embedding-lr-z",
+          "b-fold-readout-lr-minus-vqc-mean"
+        ],
+        "status": "published",
+        "sortOrder": 1
+      }
+    ],
+    "status": "published",
+    "sortOrder": 1
+  },
+  {
+    "slug": "classical-teacher",
+    "question": "Does a learned classical representation reduce the gap?",
+    "context": "Line A tested a classical teacher as an intervention; Line B trained encoders jointly with quantum and classical heads.",
+    "agreement": "converging",
+    "openQuestions": "Knowledge distillation was not trained in Line B and would require a fresh prespecified evaluation.",
+    "findings": [
+      {
+        "line": "factors-behind-generalization",
+        "observation": "Soft labels from an RBF-SVM teacher reduced the VQC gap by only 0.001 to 0.010 without significantly raising test AUC. A learned classical representation increased the gap; the logistic head on the learned features had a gap larger than on principal components by 0.063 (Ionosphere) and 0.315 (synthetic).",
+        "interpretation": "Almost all of the increase came from the classical encoder rather than the circuit. Verdict for H6: not supported.",
+        "limitations": "The teacher was a single model of each kind.",
+        "experiments": [
+          "a-teacher-encoder-net-wdbc",
+          "a-teacher-lr-on-enc-wdbc",
+          "a-teacher-vqc-on-enc-wdbc",
+          "a-teacher-vqc-on-enc-half-wdbc",
+          "a-teacher-encoder-net-ionosphere",
+          "a-teacher-lr-on-enc-ionosphere",
+          "a-teacher-vqc-on-enc-ionosphere",
+          "a-teacher-vqc-on-enc-half-ionosphere",
+          "a-teacher-encoder-net-synthetic",
+          "a-teacher-lr-on-enc-synthetic",
+          "a-teacher-vqc-on-enc-synthetic",
+          "a-teacher-vqc-on-enc-half-synthetic"
+        ],
+        "status": "published",
+        "sortOrder": 0
+      },
+      {
+        "line": "representation-and-readout",
+        "observation": "A separately trained classical encoder with a linear head reached essentially perfect training AUC and a train–validation difference of 0.0655, close to the 0.0778 of the jointly trained encoder–VQC.",
+        "interpretation": "The encoder and its training procedure are plausible contributors to the divergence.",
+        "limitations": "The two models learned different embeddings, so this does not apportion responsibility between encoder and circuit.",
+        "experiments": [
+          "b-representation-classical-encoder-lr",
+          "b-representation-encoder-vqc"
+        ],
+        "status": "published",
+        "sortOrder": 1
+      }
+    ],
+    "status": "published",
+    "sortOrder": 2
+  },
+  {
+    "slug": "circuit-specific",
+    "question": "Is the gap a property specific to the quantum circuit?",
+    "context": "Line A varied the circuit directly; Line B analyzed which functions the implemented circuit can express.",
+    "agreement": "mixed",
+    "openQuestions": "No link between the functional restrictions of the readout and the observed AUC gap has been established. A probe with free angular-basis coefficients would change several things at once.",
+    "findings": [
+      {
+        "line": "factors-behind-generalization",
+        "observation": "With the full training split, the VQC gap was at most 0.015 larger than that of an MLP with a similar number of parameters, smaller than that of the tree ensembles and larger than that of logistic regression. Removing entanglement did not change test AUC clearly, but reduced the gap and the effective parameters (12 → 8). Four layers matched an equal-size MLP.",
+        "interpretation": "The gap is interpreted as a consequence of effective capacity, data requirements and input representation, not of a property specific to quantum circuits.",
+        "limitations": "Noise-free simulation, four qubits, one circuit family, four datasets.",
+        "experiments": [
+          "a-baseline-vqc-wdbc",
+          "a-baseline-mlp-wdbc",
+          "a-baseline-vqc-ionosphere",
+          "a-baseline-mlp-ionosphere",
+          "a-baseline-vqc-synthetic",
+          "a-baseline-mlp-synthetic",
+          "a-baseline-vqc-blood-transfusion",
+          "a-baseline-mlp-blood-transfusion",
+          "a-capacity-vqc-no-entanglement-wdbc",
+          "a-capacity-vqc-no-entanglement-ionosphere",
+          "a-capacity-vqc-no-entanglement-synthetic",
+          "a-capacity-vqc-no-entanglement-blood-transfusion"
+        ],
+        "status": "published",
+        "sortOrder": 0
+      },
+      {
+        "line": "representation-and-readout",
+        "observation": "An analysis of the implemented circuit finds 81 candidate angular basis functions in the encoding envelope, a 62-function linear span under the chosen ansatz, and at most 12 functionally relevant continuous parameter directions.",
+        "interpretation": "These restrictions are a concrete candidate for future work.",
+        "limitations": "It is a structural result, not a demonstrated mechanism for the observed discrepancy.",
+        "experiments": [],
+        "status": "published",
+        "sortOrder": 1
+      }
+    ],
+    "status": "published",
+    "sortOrder": 3
+  },
+  {
+    "slug": "readout-choice",
+    "question": "Does the choice of readout change generalization?",
+    "context": "Both lines swapped the head while keeping the inputs fixed.",
+    "agreement": "mixed",
+    "openQuestions": "A genuinely matched readout protocol is still needed to separate fitting effects from readout restrictions.",
+    "findings": [
+      {
+        "line": "factors-behind-generalization",
+        "observation": "A fixed-sum readout lowered AUC on WDBC and Ionosphere and reduced the gap on all datasets. On features learned by a classical encoder, a linear head did as much as the circuit.",
+        "interpretation": "Readout capacity moves the gap together with effective parameters.",
+        "limitations": "Intervals uncorrected; four datasets.",
+        "experiments": [
+          "a-capacity-vqc-no-linear-head-wdbc",
+          "a-capacity-vqc-no-linear-head-ionosphere",
+          "a-capacity-vqc-no-linear-head-synthetic",
+          "a-capacity-vqc-no-linear-head-blood-transfusion"
+        ],
+        "status": "published",
+        "sortOrder": 0
+      },
+      {
+        "line": "representation-and-readout",
+        "observation": "On the staged-fidelity embedding, validation log loss was 0.29577 for the VQC and 0.25597 for LR, with much of the difference arising among ER− patients; ER− recall was 0.6702 with the VQC and 0.7789 with LR. Re-fitting the VQC head from three initializations did not change mean validation AUC materially (0.921474 → 0.921837).",
+        "interpretation": "Score calibration alone cannot account for the AUC difference, although fitting the probability link may still affect log loss or fixed-threshold decisions.",
+        "limitations": "Optimizer, output link and regularization are not matched between readouts.",
+        "experiments": [
+          "b-geometry-nqe-q",
+          "b-same-embedding-lr-z",
+          "b-readout-original-vqc",
+          "b-readout-refitted-vqc"
+        ],
+        "status": "published",
+        "sortOrder": 1
+      }
+    ],
+    "status": "published",
+    "sortOrder": 4
+  },
+  {
+    "slug": "geometry",
+    "question": "Does supervised embedding geometry translate into better classification?",
+    "context": "Only Line B studied pairwise geometry objectives; Line A provides no direct evidence on this question.",
+    "agreement": "open",
+    "openQuestions": "Line A has no corresponding experiment. Class-mean contrast and individual ranking answer different questions.",
+    "findings": [
+      {
+        "line": "representation-and-readout",
+        "observation": "Under the staged schedule, quantum-fidelity geometry yielded validation AUC 0.9300 against 0.9149 with Gaussian similarity; under joint fitting the ordering reversed (0.9063 against 0.9154). The mean quantum-geometry ratio |J|/D_tr was 0.9863 for the staged fidelity model, and some variants had greater trace distance yet worse validation AUC and log loss.",
+        "interpretation": "Geometric improvements did not consistently carry over to classification.",
+        "limitations": "Staged and joint procedures use different total update budgets, so the comparison does not isolate a schedule effect.",
+        "experiments": [
+          "b-geometry-nqe-q",
+          "b-geometry-nqe-e",
+          "b-geometry-hybrid-q",
+          "b-geometry-hybrid-e",
+          "b-fold-nqe-fidelity-minus-gaussian-f4"
+        ],
+        "status": "published",
+        "sortOrder": 0
+      }
+    ],
+    "status": "published",
+    "sortOrder": 5
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "wdbc",
+    "name": "Wisconsin Diagnostic Breast Cancer",
+    "shortName": "WDBC",
+    "samples": "569",
+    "features": "30",
+    "description": "Tabular benchmark used as an easy reference in Line A."
+  },
+  {
+    "slug": "ionosphere",
+    "name": "Ionosphere",
+    "shortName": "Ionosphere",
+    "samples": "351",
+    "features": "33",
+    "description": "Radar returns; used as harder data in Line A."
+  },
+  {
+    "slug": "synthetic",
+    "name": "Synthetic (make_classification)",
+    "shortName": "Synthetic",
+    "samples": "600",
+    "features": "30 (4 informative, 5% label noise)",
+    "description": "scikit-learn make_classification data used in Line A."
+  },
+  {
+    "slug": "blood-transfusion",
+    "name": "Blood Transfusion",
+    "shortName": "Transfusion",
+    "samples": "748",
+    "features": "4 (native)",
+    "description": "Four native features, used as-is (no reduction). Added in Line A after the baseline results of the other datasets."
+  },
+  {
+    "slug": "synthetic-frequency",
+    "name": "Synthetic frequency tasks",
+    "shortName": "Freq. tasks",
+    "samples": "600 per seed (new sample)",
+    "features": null,
+    "description": "Synthetic tasks whose label depends on frequency k (additive or product of sines), used for the encoding hypothesis (H2) in Line A."
+  },
+  {
+    "slug": "tcga-brca",
+    "name": "TCGA-BRCA (ER status)",
+    "shortName": "TCGA-BRCA",
+    "samples": "1,044 patients; 835 development, 209 locked test (not evaluated)",
+    "features": "60,660 genes (RNA-seq, STAR-Counts)",
+    "description": "Estrogen-receptor status (ER+ vs ER−) from primary breast-tumor RNA-seq profiles distributed by the NCI Genomic Data Commons. Open-access, de-identified research records. Not a clinical diagnostic setting."
+  }
+]

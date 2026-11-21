@@ -1,0 +1,31 @@
+{
+  "name": "@qa/api",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file-if-exists=../../.env scripts/dev.mjs",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "node --env-file-if-exists=../../.env --import tsx scripts/migrate.ts",
+    "db:seed": "node --env-file-if-exists=../../.env --import tsx scripts/seed.ts",
+    "admin:create": "node --env-file-if-exists=../../.env --import tsx scripts/create-admin.ts",
+    "figures:seed": "node --env-file-if-exists=../../.env --import tsx scripts/seed-figures.ts"
+  },
+  "dependencies": {
+    "@qa/shared": "*",
+    "drizzle-orm": "^0.45.4",
+    "hono": "^4.13.19",
+    "postgres": "^3.4.9",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260702.1",
+    "@types/node": "^20.19.0",
+    "drizzle-kit": "^0.31.11",
+    "tsx": "^4.20.6",
+    "typescript": "~5.9.3",
+    "wrangler": "4.80.0"
+  }
+}

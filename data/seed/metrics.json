@@ -1,0 +1,2891 @@
+[
+  {
+    "experiment": "a-baseline-vqc-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.985,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-vqc-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.007,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-vqc-wdbc",
+    "metricName": "param_count_nominal",
+    "value": 21,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-vqc-wdbc",
+    "metricName": "param_count_effective",
+    "value": 17,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-lr-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.991,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-lr-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.003,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-svm-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.991,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-svm-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.004,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-rf-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.984,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-rf-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.016,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-xgboost-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.986,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-xgboost-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.014,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.991,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.005,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-wdbc",
+    "metricName": "param_count_nominal",
+    "value": 19,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-mlp-wdbc",
+    "metricName": "param_count_effective",
+    "value": 19,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-vqc-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.863,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-vqc-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.054,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-vqc-ionosphere",
+    "metricName": "param_count_nominal",
+    "value": 21,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-vqc-ionosphere",
+    "metricName": "param_count_effective",
+    "value": 17,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-lr-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.884,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-lr-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.01,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-svm-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.917,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-svm-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.027,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-rf-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.931,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-rf-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.069,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-xgboost-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.912,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-xgboost-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.088,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.896,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.049,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-ionosphere",
+    "metricName": "param_count_nominal",
+    "value": 19,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-mlp-ionosphere",
+    "metricName": "param_count_effective",
+    "value": 19,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-vqc-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.757,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-vqc-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.052,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-vqc-synthetic",
+    "metricName": "param_count_nominal",
+    "value": 21,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-vqc-synthetic",
+    "metricName": "param_count_effective",
+    "value": 17,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-lr-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.679,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-lr-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.011,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-svm-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.774,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-svm-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.062,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-rf-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.755,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-rf-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.245,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-xgboost-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.741,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-xgboost-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.251,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.763,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.043,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-synthetic",
+    "metricName": "param_count_nominal",
+    "value": 19,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-mlp-synthetic",
+    "metricName": "param_count_effective",
+    "value": 19,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-vqc-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.745,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-vqc-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.019,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-vqc-blood-transfusion",
+    "metricName": "param_count_nominal",
+    "value": 21,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-vqc-blood-transfusion",
+    "metricName": "param_count_effective",
+    "value": 17,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-lr-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.755,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-lr-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": -0.001,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-svm-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.705,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-svm-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.017,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-rf-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.69,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-rf-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.283,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-xgboost-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.708,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-xgboost-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.186,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.75,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.004,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table I"
+  },
+  {
+    "experiment": "a-baseline-mlp-blood-transfusion",
+    "metricName": "param_count_nominal",
+    "value": 19,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-baseline-mlp-blood-transfusion",
+    "metricName": "param_count_effective",
+    "value": 19,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-encoding-vqc-add-k1",
+    "metricName": "roc_auc",
+    "value": 0.944,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-add-k1",
+    "metricName": "gen_gap",
+    "value": 0.008,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-reupload-add-k1",
+    "metricName": "roc_auc",
+    "value": 0.908,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-x2-add-k1",
+    "metricName": "roc_auc",
+    "value": 0.502,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-add-k1",
+    "metricName": "roc_auc",
+    "value": 0.892,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-add-k1",
+    "metricName": "gen_gap",
+    "value": 0.007,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-add-k2",
+    "metricName": "roc_auc",
+    "value": 0.49,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-add-k2",
+    "metricName": "gen_gap",
+    "value": 0.156,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-reupload-add-k2",
+    "metricName": "roc_auc",
+    "value": 0.822,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-x2-add-k2",
+    "metricName": "roc_auc",
+    "value": 0.936,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-add-k2",
+    "metricName": "roc_auc",
+    "value": 0.647,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-add-k2",
+    "metricName": "gen_gap",
+    "value": 0.075,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-add-k3",
+    "metricName": "roc_auc",
+    "value": 0.512,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-add-k3",
+    "metricName": "gen_gap",
+    "value": 0.132,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-reupload-add-k3",
+    "metricName": "roc_auc",
+    "value": 0.508,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-x2-add-k3",
+    "metricName": "roc_auc",
+    "value": 0.488,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-add-k3",
+    "metricName": "roc_auc",
+    "value": 0.578,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-add-k3",
+    "metricName": "gen_gap",
+    "value": 0.083,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-prod-k1",
+    "metricName": "roc_auc",
+    "value": 0.938,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-prod-k1",
+    "metricName": "gen_gap",
+    "value": 0.014,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-reupload-prod-k1",
+    "metricName": "roc_auc",
+    "value": 0.507,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-x2-prod-k1",
+    "metricName": "roc_auc",
+    "value": 0.501,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-prod-k1",
+    "metricName": "roc_auc",
+    "value": 0.888,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-prod-k1",
+    "metricName": "gen_gap",
+    "value": 0.023,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-prod-k2",
+    "metricName": "roc_auc",
+    "value": 0.506,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-prod-k2",
+    "metricName": "gen_gap",
+    "value": 0.141,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-reupload-prod-k2",
+    "metricName": "roc_auc",
+    "value": 0.696,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-x2-prod-k2",
+    "metricName": "roc_auc",
+    "value": 0.949,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-prod-k2",
+    "metricName": "roc_auc",
+    "value": 0.554,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-prod-k2",
+    "metricName": "gen_gap",
+    "value": 0.103,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-prod-k3",
+    "metricName": "roc_auc",
+    "value": 0.501,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-prod-k3",
+    "metricName": "gen_gap",
+    "value": 0.144,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-reupload-prod-k3",
+    "metricName": "roc_auc",
+    "value": 0.486,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-vqc-x2-prod-k3",
+    "metricName": "roc_auc",
+    "value": 0.513,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-prod-k3",
+    "metricName": "roc_auc",
+    "value": 0.509,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-encoding-mlp-prod-k3",
+    "metricName": "gen_gap",
+    "value": 0.113,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table II"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.969,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.008,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-wdbc",
+    "metricName": "param_count_nominal",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-wdbc",
+    "metricName": "param_count_effective",
+    "value": 9,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.991,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.004,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-wdbc",
+    "metricName": "param_count_nominal",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-wdbc",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.989,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.007,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-wdbc",
+    "metricName": "param_count_nominal",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-wdbc",
+    "metricName": "param_count_effective",
+    "value": 33,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.99,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.007,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-wdbc",
+    "metricName": "param_count_nominal",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-wdbc",
+    "metricName": "param_count_effective",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.981,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.005,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-wdbc",
+    "metricName": "param_count_nominal",
+    "value": 21,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-wdbc",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.977,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.003,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-wdbc",
+    "metricName": "param_count_nominal",
+    "value": 17,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-wdbc",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.804,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.03,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-ionosphere",
+    "metricName": "param_count_nominal",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-ionosphere",
+    "metricName": "param_count_effective",
+    "value": 9,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.888,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.026,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-ionosphere",
+    "metricName": "param_count_nominal",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-ionosphere",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.912,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.05,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-ionosphere",
+    "metricName": "param_count_nominal",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-ionosphere",
+    "metricName": "param_count_effective",
+    "value": 33,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.908,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.065,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-ionosphere",
+    "metricName": "param_count_nominal",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-ionosphere",
+    "metricName": "param_count_effective",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.881,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.021,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-ionosphere",
+    "metricName": "param_count_nominal",
+    "value": 21,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-ionosphere",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.815,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.024,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-ionosphere",
+    "metricName": "param_count_nominal",
+    "value": 17,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-ionosphere",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.76,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.031,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-synthetic",
+    "metricName": "param_count_nominal",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-synthetic",
+    "metricName": "param_count_effective",
+    "value": 9,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.747,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.022,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-synthetic",
+    "metricName": "param_count_nominal",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-synthetic",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.755,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.086,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-synthetic",
+    "metricName": "param_count_nominal",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-synthetic",
+    "metricName": "param_count_effective",
+    "value": 33,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.763,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.085,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-synthetic",
+    "metricName": "param_count_nominal",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-synthetic",
+    "metricName": "param_count_effective",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.757,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.027,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-synthetic",
+    "metricName": "param_count_nominal",
+    "value": 21,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-synthetic",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.763,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.02,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-synthetic",
+    "metricName": "param_count_nominal",
+    "value": 17,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-synthetic",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.709,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.012,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-blood-transfusion",
+    "metricName": "param_count_nominal",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-1-layer-blood-transfusion",
+    "metricName": "param_count_effective",
+    "value": 9,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.734,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.006,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-blood-transfusion",
+    "metricName": "param_count_nominal",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-2-hidden-blood-transfusion",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.743,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.034,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-blood-transfusion",
+    "metricName": "param_count_nominal",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-4-layers-blood-transfusion",
+    "metricName": "param_count_effective",
+    "value": 33,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.749,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.017,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-blood-transfusion",
+    "metricName": "param_count_nominal",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-mlp-6-hidden-blood-transfusion",
+    "metricName": "param_count_effective",
+    "value": 37,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.741,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.002,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-blood-transfusion",
+    "metricName": "param_count_nominal",
+    "value": 21,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-entanglement-blood-transfusion",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-blood-transfusion",
+    "metricName": "roc_auc",
+    "value": 0.74,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.011,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-blood-transfusion",
+    "metricName": "param_count_nominal",
+    "value": 17,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-capacity-vqc-no-linear-head-blood-transfusion",
+    "metricName": "param_count_effective",
+    "value": 13,
+    "split": null,
+    "aggregation": null,
+    "unit": null,
+    "source": "Manuscript A, Table III"
+  },
+  {
+    "experiment": "a-training-size-vqc-10pct-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.07,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H4)"
+  },
+  {
+    "experiment": "a-training-size-vqc-10pct-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.234,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H4)"
+  },
+  {
+    "experiment": "a-training-size-vqc-10pct-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.397,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H4)"
+  },
+  {
+    "experiment": "a-training-size-vqc-10pct-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.278,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H4)"
+  },
+  {
+    "experiment": "a-optimization-vqc-25ep-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.004,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H5)"
+  },
+  {
+    "experiment": "a-optimization-vqc-800ep-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.01,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H5)"
+  },
+  {
+    "experiment": "a-optimization-vqc-25ep-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.024,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H5)"
+  },
+  {
+    "experiment": "a-optimization-vqc-800ep-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.063,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H5)"
+  },
+  {
+    "experiment": "a-optimization-vqc-25ep-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.029,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H5)"
+  },
+  {
+    "experiment": "a-optimization-vqc-800ep-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.061,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H5)"
+  },
+  {
+    "experiment": "a-optimization-vqc-25ep-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.005,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H5)"
+  },
+  {
+    "experiment": "a-optimization-vqc-800ep-blood-transfusion",
+    "metricName": "gen_gap",
+    "value": 0.03,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (H5)"
+  },
+  {
+    "experiment": "a-teacher-encoder-net-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.992,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-encoder-net-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.005,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-lr-on-enc-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.992,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-lr-on-enc-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.005,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.938,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.052,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-half-wdbc",
+    "metricName": "roc_auc",
+    "value": 0.985,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-half-wdbc",
+    "metricName": "gen_gap",
+    "value": 0.011,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-encoder-net-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.924,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-encoder-net-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.072,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-lr-on-enc-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.923,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-lr-on-enc-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.074,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.792,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.197,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-half-ionosphere",
+    "metricName": "roc_auc",
+    "value": 0.912,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-half-ionosphere",
+    "metricName": "gen_gap",
+    "value": 0.086,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-encoder-net-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.673,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-encoder-net-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.325,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-lr-on-enc-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.672,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-lr-on-enc-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.326,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.548,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.367,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-half-synthetic",
+    "metricName": "roc_auc",
+    "value": 0.66,
+    "split": "test",
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-teacher-vqc-on-enc-half-synthetic",
+    "metricName": "gen_gap",
+    "value": 0.336,
+    "split": null,
+    "aggregation": "mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table IV"
+  },
+  {
+    "experiment": "a-shuffled-labels-vqc",
+    "metricName": "roc_auc",
+    "value": 0.605,
+    "split": "train",
+    "aggregation": "range_min",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (Baseline)"
+  },
+  {
+    "experiment": "a-shuffled-labels-vqc",
+    "metricName": "roc_auc",
+    "value": 0.671,
+    "split": "train",
+    "aggregation": "range_max",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (Baseline)"
+  },
+  {
+    "experiment": "a-shuffled-labels-mlp",
+    "metricName": "roc_auc",
+    "value": 0.537,
+    "split": "train",
+    "aggregation": "range_min",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (Baseline)"
+  },
+  {
+    "experiment": "a-shuffled-labels-mlp",
+    "metricName": "roc_auc",
+    "value": 0.651,
+    "split": "train",
+    "aggregation": "range_max",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (Baseline)"
+  },
+  {
+    "experiment": "a-shuffled-labels-rf",
+    "metricName": "roc_auc",
+    "value": 0.959,
+    "split": "train",
+    "aggregation": "range_min",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (Baseline)"
+  },
+  {
+    "experiment": "a-shuffled-labels-rf",
+    "metricName": "roc_auc",
+    "value": 1,
+    "split": "train",
+    "aggregation": "range_max",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (Baseline)"
+  },
+  {
+    "experiment": "a-shuffled-labels-xgboost",
+    "metricName": "roc_auc",
+    "value": 0.847,
+    "split": "train",
+    "aggregation": "range_min",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (Baseline)"
+  },
+  {
+    "experiment": "a-shuffled-labels-xgboost",
+    "metricName": "roc_auc",
+    "value": 0.998,
+    "split": "train",
+    "aggregation": "range_max",
+    "unit": null,
+    "source": "Manuscript A, Section IV-B (Baseline)"
+  },
+  {
+    "experiment": "b-representation-pca4-vqc",
+    "metricName": "roc_auc",
+    "value": 0.8328,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-pca4-vqc",
+    "metricName": "roc_auc",
+    "value": 0.8297,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-pca4-vqc",
+    "metricName": "log_loss",
+    "value": 0.4713,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-pca4-vqc",
+    "metricName": "log_loss",
+    "value": 0.4769,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-pca4-vqc",
+    "metricName": "gen_gap",
+    "value": 0.003,
+    "split": null,
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table V"
+  },
+  {
+    "experiment": "b-representation-pca4-vqc",
+    "metricName": "brier",
+    "value": 0.153,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table V"
+  },
+  {
+    "experiment": "b-representation-pca4-lr",
+    "metricName": "roc_auc",
+    "value": 0.9498,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-pca4-lr",
+    "metricName": "roc_auc",
+    "value": 0.949,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-pca4-lr",
+    "metricName": "log_loss",
+    "value": 0.2201,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-pca4-lr",
+    "metricName": "log_loss",
+    "value": 0.2286,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-pca4-lr",
+    "metricName": "gen_gap",
+    "value": 0.001,
+    "split": null,
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table V"
+  },
+  {
+    "experiment": "b-representation-pca4-lr",
+    "metricName": "brier",
+    "value": 0.062,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table V"
+  },
+  {
+    "experiment": "b-representation-encoder-vqc",
+    "metricName": "roc_auc",
+    "value": 0.9993,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-encoder-vqc",
+    "metricName": "roc_auc",
+    "value": 0.9215,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-encoder-vqc",
+    "metricName": "log_loss",
+    "value": 0.0488,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-encoder-vqc",
+    "metricName": "log_loss",
+    "value": 0.2867,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-encoder-vqc",
+    "metricName": "gen_gap",
+    "value": 0.0778,
+    "split": null,
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Section IV-A"
+  },
+  {
+    "experiment": "b-representation-encoder-vqc",
+    "metricName": "brier",
+    "value": 0.071,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table V"
+  },
+  {
+    "experiment": "b-representation-frozen-encoder-lr",
+    "metricName": "roc_auc",
+    "value": 0.9758,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-frozen-encoder-lr",
+    "metricName": "roc_auc",
+    "value": 0.9371,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-frozen-encoder-lr",
+    "metricName": "log_loss",
+    "value": 0.1104,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-frozen-encoder-lr",
+    "metricName": "log_loss",
+    "value": 0.2819,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-frozen-encoder-lr",
+    "metricName": "gen_gap",
+    "value": 0.039,
+    "split": null,
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table V"
+  },
+  {
+    "experiment": "b-representation-frozen-encoder-lr",
+    "metricName": "brier",
+    "value": 0.068,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table V"
+  },
+  {
+    "experiment": "b-representation-classical-encoder-lr",
+    "metricName": "roc_auc",
+    "value": 1,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-classical-encoder-lr",
+    "metricName": "roc_auc",
+    "value": 0.9345,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-classical-encoder-lr",
+    "metricName": "log_loss",
+    "value": 0.0022,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-classical-encoder-lr",
+    "metricName": "log_loss",
+    "value": 0.7585,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table I"
+  },
+  {
+    "experiment": "b-representation-classical-encoder-lr",
+    "metricName": "gen_gap",
+    "value": 0.0655,
+    "split": null,
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Section IV-A"
+  },
+  {
+    "experiment": "b-representation-classical-encoder-lr",
+    "metricName": "brier",
+    "value": 0.082,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript A, Table V"
+  },
+  {
+    "experiment": "b-readout-original-vqc",
+    "metricName": "roc_auc",
+    "value": 0.999307,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-readout-original-vqc",
+    "metricName": "roc_auc",
+    "value": 0.921474,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-readout-original-vqc",
+    "metricName": "log_loss",
+    "value": 0.286672,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-readout-refitted-vqc",
+    "metricName": "roc_auc",
+    "value": 0.999291,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-readout-refitted-vqc",
+    "metricName": "roc_auc",
+    "value": 0.921837,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-readout-refitted-vqc",
+    "metricName": "log_loss",
+    "value": 0.28629,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-readout-lr-latent",
+    "metricName": "roc_auc",
+    "value": 0.975782,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-readout-lr-latent",
+    "metricName": "roc_auc",
+    "value": 0.937141,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-readout-lr-latent",
+    "metricName": "log_loss",
+    "value": 0.281925,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-readout-lr-angles",
+    "metricName": "roc_auc",
+    "value": 0.977958,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-readout-lr-angles",
+    "metricName": "roc_auc",
+    "value": 0.937073,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-readout-lr-angles",
+    "metricName": "log_loss",
+    "value": 0.283954,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table II"
+  },
+  {
+    "experiment": "b-geometry-nqe-q",
+    "metricName": "roc_auc",
+    "value": 0.99796,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-nqe-q",
+    "metricName": "roc_auc",
+    "value": 0.93003,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-nqe-q",
+    "metricName": "log_loss",
+    "value": 0.29577,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-nqe-q",
+    "metricName": "balanced_accuracy",
+    "value": 0.81752,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-nqe-q",
+    "metricName": "recall_minority",
+    "value": 0.6702,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Section IV-D"
+  },
+  {
+    "experiment": "b-geometry-nqe-q",
+    "metricName": "geometry_ratio",
+    "value": 0.9863,
+    "split": null,
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Section IV-C"
+  },
+  {
+    "experiment": "b-geometry-nqe-e",
+    "metricName": "roc_auc",
+    "value": 0.9982,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-nqe-e",
+    "metricName": "roc_auc",
+    "value": 0.91493,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-nqe-e",
+    "metricName": "log_loss",
+    "value": 0.30627,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-nqe-e",
+    "metricName": "balanced_accuracy",
+    "value": 0.81064,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-hybrid-q",
+    "metricName": "roc_auc",
+    "value": 0.99971,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-hybrid-q",
+    "metricName": "roc_auc",
+    "value": 0.90631,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-hybrid-q",
+    "metricName": "log_loss",
+    "value": 0.34071,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-hybrid-q",
+    "metricName": "balanced_accuracy",
+    "value": 0.8495,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-hybrid-e",
+    "metricName": "roc_auc",
+    "value": 0.9997,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-hybrid-e",
+    "metricName": "roc_auc",
+    "value": 0.9154,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-hybrid-e",
+    "metricName": "log_loss",
+    "value": 0.31977,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-geometry-hybrid-e",
+    "metricName": "balanced_accuracy",
+    "value": 0.83985,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Table III"
+  },
+  {
+    "experiment": "b-same-embedding-lr-z",
+    "metricName": "roc_auc",
+    "value": 0.968277,
+    "split": "train",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Section IV-D"
+  },
+  {
+    "experiment": "b-same-embedding-lr-z",
+    "metricName": "roc_auc",
+    "value": 0.94152,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Section IV-D"
+  },
+  {
+    "experiment": "b-same-embedding-lr-z",
+    "metricName": "log_loss",
+    "value": 0.25597,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": "nats",
+    "source": "Manuscript B, Section IV-D"
+  },
+  {
+    "experiment": "b-same-embedding-lr-z",
+    "metricName": "recall_minority",
+    "value": 0.7789,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Section IV-D"
+  },
+  {
+    "experiment": "b-fold-readout-lr-minus-vqc-f0",
+    "metricName": "auc_difference",
+    "value": 0.012,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 4 (data labels)"
+  },
+  {
+    "experiment": "b-fold-readout-lr-minus-vqc-f1",
+    "metricName": "auc_difference",
+    "value": 0.012,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 4 (data labels)"
+  },
+  {
+    "experiment": "b-fold-readout-lr-minus-vqc-f2",
+    "metricName": "auc_difference",
+    "value": 0.009,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 4 (data labels)"
+  },
+  {
+    "experiment": "b-fold-readout-lr-minus-vqc-f3",
+    "metricName": "auc_difference",
+    "value": 0.035,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 4 (data labels)"
+  },
+  {
+    "experiment": "b-fold-readout-lr-minus-vqc-f4",
+    "metricName": "auc_difference",
+    "value": -0.011,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 4 (data labels)"
+  },
+  {
+    "experiment": "b-fold-readout-lr-minus-vqc-mean",
+    "metricName": "auc_difference",
+    "value": 0.01149,
+    "split": "validation",
+    "aggregation": "mean_over_folds_and_seeds",
+    "unit": null,
+    "source": "Manuscript B, Section IV-D"
+  },
+  {
+    "experiment": "b-fold-readout-lr-minus-vqc-mean",
+    "metricName": "auc_difference",
+    "value": 0.01638,
+    "split": "validation",
+    "aggregation": "std_between_fold_means",
+    "unit": null,
+    "source": "Manuscript B, Section IV-D"
+  },
+  {
+    "experiment": "b-fold-nqe-fidelity-minus-gaussian-f0",
+    "metricName": "auc_difference",
+    "value": 0.001,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 3 (data labels)"
+  },
+  {
+    "experiment": "b-fold-nqe-fidelity-minus-gaussian-f1",
+    "metricName": "auc_difference",
+    "value": 0.023,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 3 (data labels)"
+  },
+  {
+    "experiment": "b-fold-nqe-fidelity-minus-gaussian-f2",
+    "metricName": "auc_difference",
+    "value": 0.014,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 3 (data labels)"
+  },
+  {
+    "experiment": "b-fold-nqe-fidelity-minus-gaussian-f3",
+    "metricName": "auc_difference",
+    "value": 0.003,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 3 (data labels)"
+  },
+  {
+    "experiment": "b-fold-nqe-fidelity-minus-gaussian-f4",
+    "metricName": "auc_difference",
+    "value": 0.034,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 3 (data labels)"
+  },
+  {
+    "experiment": "b-fold-hybrid-fidelity-minus-gaussian-f0",
+    "metricName": "auc_difference",
+    "value": -0.019,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 3 (data labels)"
+  },
+  {
+    "experiment": "b-fold-hybrid-fidelity-minus-gaussian-f1",
+    "metricName": "auc_difference",
+    "value": -0.011,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 3 (data labels)"
+  },
+  {
+    "experiment": "b-fold-hybrid-fidelity-minus-gaussian-f2",
+    "metricName": "auc_difference",
+    "value": -0.023,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 3 (data labels)"
+  },
+  {
+    "experiment": "b-fold-hybrid-fidelity-minus-gaussian-f3",
+    "metricName": "auc_difference",
+    "value": -0.002,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 3 (data labels)"
+  },
+  {
+    "experiment": "b-fold-hybrid-fidelity-minus-gaussian-f4",
+    "metricName": "auc_difference",
+    "value": 0.009,
+    "split": "validation",
+    "aggregation": "fold_mean_over_seeds",
+    "unit": null,
+    "source": "Manuscript B, Fig. 3 (data labels)"
+  }
+]
