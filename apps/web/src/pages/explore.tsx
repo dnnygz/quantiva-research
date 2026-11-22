@@ -124,7 +124,7 @@ export default function ExplorePage() {
       <PageHeader
         eyebrow="Explore"
         title="Experimental results"
-        description="Both lines of evidence in one place. Filter by line, dataset, factor, model and metric; numbers are published means unless stated otherwise."
+        description="Both lines of evidence in one place. Filter by line, dataset, factor, model and metric; numbers are reported means unless stated otherwise."
       />
 
       <FilterPanel
@@ -233,7 +233,7 @@ export default function ExplorePage() {
           title="Experiments"
           description={
             <span className="tabular">
-              {filtered.length} of {data.experiments.length} published results match the current filters.
+              {filtered.length} of {data.experiments.length} reported results match the current filters.
             </span>
           }
         />
@@ -274,7 +274,7 @@ export default function ExplorePage() {
           id="figures-title"
           icon={<Images />}
           title="Figures"
-          description="Original figures from the manuscripts and images added by the researchers. They complement the interactive charts."
+          description="Original figures from the paper and the project repository, plus images added by the researchers. They complement the interactive charts."
         />
         {figures.state.status === 'loading' ? (
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">

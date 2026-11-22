@@ -46,7 +46,7 @@ export function CellContext({ experiment, measureKey }: { experiment?: Experimen
         </p>
         <p className="mt-1 text-xs text-ink-3">
           {v.kind === 'missing'
-            ? 'Not reported in the manuscripts.'
+            ? 'Not reported in the paper.'
             : `${v.metric.aggregation ? AGGREGATION_LABELS[v.metric.aggregation] : 'Value'} · ${v.metric.source ?? experiment.source}`}
         </p>
       </div>

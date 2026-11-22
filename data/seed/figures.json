@@ -5,7 +5,7 @@
     "experiment": "a-baseline-vqc-wdbc",
     "title": "Four-qubit VQC",
     "description": "Four-qubit VQC: angle encoding, two variational layers with entangling gates, and measurement.",
-    "source": "Manuscript A, Fig. 1"
+    "source": "Paper, Fig. 1"
   },
   {
     "file": "a-fig2-pipeline.png",
@@ -13,7 +13,7 @@
     "experiment": "a-baseline-lr-wdbc",
     "title": "Experimental pipeline",
     "description": "Preprocessing fitted on the training split only, the VQC and the classical comparators on the same four inputs, and the metrics computed on both splits.",
-    "source": "Manuscript A, Fig. 2"
+    "source": "Paper, Fig. 2"
   },
   {
     "file": "a-fig3-training-size.png",
@@ -21,7 +21,7 @@
     "experiment": "a-training-size-vqc-10pct-wdbc",
     "title": "Test AUC and gap versus training data used",
     "description": "Test AUC (top) and gap (bottom) as a function of the percentage of the training split used (means over 30 seeds).",
-    "source": "Manuscript A, Fig. 3"
+    "source": "Paper, Fig. 3"
   },
   {
     "file": "b-fig1-shared-embedding.png",
@@ -29,7 +29,7 @@
     "experiment": "b-representation-frozen-encoder-lr",
     "title": "Shared-embedding comparison",
     "description": "The shared-embedding comparison fits logistic regression after freezing a representation learned with the VQC. Equal input coordinates do not imply equal model capacity or fitting. PCA4 also feeds separate VQC and classical baselines.",
-    "source": "Manuscript B, Fig. 1"
+    "source": "Repository, TCGA case study, Fig. 1"
   },
   {
     "file": "b-fig2-representations.png",
@@ -37,7 +37,7 @@
     "experiment": "b-representation-encoder-vqc",
     "title": "Learned representations and generalization",
     "description": "Training and validation ROC-AUC for the PCA4 quantum and logistic baselines, the jointly learned encoder–VQC, and logistic regression on the frozen quantum-trained embedding. AUC means are aggregated fold-first. Different encoder inputs and fits prevent an attribution of the improvement to the quantum circuit alone.",
-    "source": "Manuscript B, Fig. 2"
+    "source": "Repository, TCGA case study, Fig. 2"
   },
   {
     "file": "b-fig3-geometry.png",
@@ -45,7 +45,7 @@
     "experiment": "b-geometry-nqe-q",
     "title": "Geometric objective and training schedule",
     "description": "Development AUC with two geometry objectives and two fitting schedules. The lower panel shows paired fidelity-minus-Gaussian validation differences within each fold, averaged across seeds. Positive values favor fidelity; the schedule comparison is confounded by training budget and optimization.",
-    "source": "Manuscript B, Fig. 3"
+    "source": "Repository, TCGA case study, Fig. 3"
   },
   {
     "file": "b-fig4-readout.png",
@@ -53,6 +53,6 @@
     "experiment": "b-same-embedding-lr-z",
     "title": "Same-embedding readout comparison",
     "description": "The top panel contrasts mean training and validation AUC. The bottom panel gives fold-level validation differences, LR on frozen z minus VQC, averaged over three seeds. The reversed fifth fold and the small mean difference temper any claim of readout superiority.",
-    "source": "Manuscript B, Fig. 4"
+    "source": "Repository, TCGA case study, Fig. 4"
   }
 ]

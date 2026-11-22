@@ -110,8 +110,16 @@ export function AppShell() {
             Ciencias Aplicadas
           </p>
           <p className="max-w-xl md:text-right">
-            Results from noise-free simulation, published in two manuscripts. Exploratory research — not a clinical or
-            diagnostic tool, and no claim of quantum advantage.
+            Results from noise-free simulation, reported in the accompanying paper and the project repository (
+            <a
+              href="https://github.com/dnnygz/quantum-aware-representation-learning"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-primary-600 hover:underline"
+            >
+              github.com/dnnygz/quantum-aware-representation-learning
+            </a>
+            ). Exploratory research — not a clinical or diagnostic tool, and no claim of quantum advantage.
           </p>
         </div>
       </footer>

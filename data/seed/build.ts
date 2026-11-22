@@ -24,8 +24,8 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const OUT = dirname(fileURLToPath(import.meta.url));
-const A = 'Manuscript A';
-const B = 'Manuscript B';
+const A = 'Paper';
+const B = 'Repository, TCGA case study';
 
 type Split = 'train' | 'test' | 'validation' | null;
 type Agg =
@@ -83,7 +83,7 @@ const researchLines = [
     name: 'Factors Behind Generalization',
     shortName: 'Factors',
     manuscriptTitle:
-      'A Controlled Analysis of the Factors Behind the Generalization Gap of Variational Quantum Classifiers in Simulated Environments',
+      'Main controlled study',
     description:
       'Measures the train–test gap of a four-qubit VQC against five classical models with the same four inputs on four tabular datasets, then varies one factor at a time: input representation, data encoding, circuit capacity and readout, training-set size, optimization budget and a classical teacher.',
     sortOrder: 1,
@@ -94,7 +94,7 @@ const researchLines = [
     name: 'Representation & Readout',
     shortName: 'Readout',
     manuscriptTitle:
-      'Learned Representations, Geometry, and Variational Readouts: A TCGA-BRCA Case Study',
+      'Complementary TCGA-BRCA case study',
     description:
       'Follows a four-qubit VQC on an ER-status task from TCGA-BRCA RNA-seq: fixed principal components versus a learned encoder, frozen-embedding readout controls, supervised quantum-fidelity and Gaussian geometry, and a same-embedding comparison of quantum and logistic readouts.',
     sortOrder: 2,
@@ -237,7 +237,7 @@ type AModel = keyof typeof A_MODELS;
 
 // --- Line A · Table I: baseline with the same four inputs -------------------
 const tableI: Record<string, Record<AModel, [number, number]>> = {
-  wdbc: { VQC: [0.985, 0.007], LR: [0.991, 0.003], SVM: [0.991, 0.004], RF: [0.984, 0.016], XGBoost: [0.986, 0.014], MLP: [0.991, 0.005] },
+  wdbc: { VQC: [0.985, 0.007], LR: [0.991, 0.003], SVM: [0.991, 0.004], RF: [0.984, 0.016], XGBoost: [0.985, 0.015], MLP: [0.991, 0.005] },
   ionosphere: { VQC: [0.863, 0.054], LR: [0.884, 0.01], SVM: [0.917, 0.027], RF: [0.931, 0.069], XGBoost: [0.912, 0.088], MLP: [0.896, 0.049] },
   synthetic: { VQC: [0.757, 0.052], LR: [0.679, 0.011], SVM: [0.774, 0.062], RF: [0.755, 0.245], XGBoost: [0.741, 0.251], MLP: [0.763, 0.043] },
   'blood-transfusion': { VQC: [0.745, 0.019], LR: [0.755, -0.001], SVM: [0.705, 0.017], RF: [0.69, 0.283], XGBoost: [0.708, 0.186], MLP: [0.75, 0.004] },
@@ -437,13 +437,13 @@ for (const ds of A_DATASETS) {
     factor: 'training_size',
     objective: 'Test whether the gap shrinks as the training set grows (H4).',
     description:
-      'Base VQC trained on 10% of the training split. The full curve (10–100%) for all models appears in Fig. 3 of the manuscript; only the values stated in the text are stored here.',
+      'Base VQC trained on 10% of the training split. The full curve (10–100%) for all models appears in Fig. 3 of the paper; only the values stated in the text are stored here.',
     configuration: { training_fraction: 0.1 },
     nSeeds: 30,
     nFolds: null,
     observations:
       'With 10% of the data, the gap of the VQC exceeded that of the MLP on all four datasets (by 0.049 to 0.118) and its test AUC was lower (−0.049 to −0.038).',
-    limitations: 'Intermediate points of Fig. 3 are not tabulated in the manuscript and are not reproduced here.',
+    limitations: 'Intermediate points of Fig. 3 are not tabulated in the paper and are not reproduced here.',
     source: `${A}, Section IV-B (H4)`,
     metrics: [m('gen_gap', h4[ds.slug]!, null, 'mean_over_seeds', `${A}, Section IV-B (H4)`)],
   });
@@ -480,7 +480,7 @@ for (const ds of A_DATASETS) {
       nFolds: null,
       observations:
         'Between 25 and 800 epochs the gap of the VQC rose on every dataset, as it did for the MLP. Training from 200 to 800 epochs raised the gap on the synthetic data and Blood Transfusion (+0.009 and +0.010) without improving the test AUC.',
-      limitations: 'Only the 25- and 800-epoch gaps of the VQC are stated numerically in the manuscript.',
+      limitations: 'Only the 25- and 800-epoch gaps of the VQC are stated numerically in the paper.',
       source: `${A}, Section IV-B (H5)`,
       metrics: [m('gen_gap', gap, null, 'mean_over_seeds', `${A}, Section IV-B (H5)`)],
     });
@@ -554,19 +554,19 @@ for (const [model, lo, hi] of shuffled) {
     factor: 'memorization',
     objective:
       'Label-randomization control: a model that fits permuted labels can memorize arbitrary data, so a good fit on true labels says little about generalization.',
-    description: 'Trained on randomly permuted labels. The manuscript reports the range of training AUC.',
+    description: 'Trained on randomly permuted labels. The paper reports the range of training AUC.',
     configuration: { labels: 'randomly permuted' },
     nSeeds: 30,
     nFolds: null,
     observations: null,
-    limitations: 'Reported as a range; the manuscript does not give a per-dataset breakdown.',
+    limitations: 'Reported as a range; the paper does not give a per-dataset breakdown.',
     source: src,
     metrics: [m('roc_auc', lo, 'train', 'range_min', src), m('roc_auc', hi, 'train', 'range_max', src)],
   });
 }
 
 // --- Line B · Table I (+ Manuscript A, Table V): representation comparisons --
-const srcB1 = `${B}, Table I`;
+const srcB1 = B;
 const srcA5 = `${A}, Table V`;
 const bRep: Array<{
   key: string;
@@ -584,9 +584,9 @@ const bRep: Array<{
 }> = [
   { key: 'pca4-vqc', model: 'VQC', family: 'quantum', variant: 'PCA-4', title: 'VQC on four principal components', desc: 'Four fixed principal components fitted per fold, fed to the four-qubit VQC.', train: 0.8328, val: 0.8297, trainLoss: 0.4713, valLoss: 0.4769, gap: [0.003, srcA5], brier: 0.153 },
   { key: 'pca4-lr', model: 'LR', family: 'classical', variant: 'PCA-4', title: 'Logistic regression on four principal components', desc: 'L2-regularized logistic regression (C = 1, with intercept) on the same four components.', train: 0.9498, val: 0.949, trainLoss: 0.2201, valLoss: 0.2286, gap: [0.001, srcA5], brier: 0.062 },
-  { key: 'encoder-vqc', model: 'VQC', family: 'hybrid', variant: 'Learned encoder', title: 'Learned encoder with VQC head', desc: 'PCA32 input → jointly trained 32 → 8 → 4 encoder (tanh) → angles π·tanh(z/2) → four-qubit VQC reading Z₃.', train: 0.9993, val: 0.9215, trainLoss: 0.0488, valLoss: 0.2867, gap: [0.0778, `${B}, Section IV-A`], brier: 0.071 },
+  { key: 'encoder-vqc', model: 'VQC', family: 'hybrid', variant: 'Learned encoder', title: 'Learned encoder with VQC head', desc: 'PCA32 input → jointly trained 32 → 8 → 4 encoder (tanh) → angles π·tanh(z/2) → four-qubit VQC reading Z₃.', train: 0.9993, val: 0.9215, trainLoss: 0.0488, valLoss: 0.2867, gap: [0.0778, B], brier: 0.071 },
   { key: 'frozen-encoder-lr', model: 'LR', family: 'hybrid', variant: 'Frozen encoder', title: 'Logistic regression on the frozen quantum-trained encoder', desc: 'Logistic probe fitted after freezing the encoder learned jointly with the VQC.', train: 0.9758, val: 0.9371, trainLoss: 0.1104, valLoss: 0.2819, gap: [0.039, srcA5], brier: 0.068 },
-  { key: 'classical-encoder-lr', model: 'LR', family: 'classical', variant: 'Joint classical encoder', title: 'Classical encoder trained jointly with a linear head', desc: 'Separately trained classical encoder with a linear (logistic) head, trained jointly.', train: 1.0, val: 0.9345, trainLoss: 0.0022, valLoss: 0.7585, gap: [0.0655, `${B}, Section IV-A`], brier: 0.082 },
+  { key: 'classical-encoder-lr', model: 'LR', family: 'classical', variant: 'Joint classical encoder', title: 'Classical encoder trained jointly with a linear head', desc: 'Separately trained classical encoder with a linear (logistic) head, trained jointly.', train: 1.0, val: 0.9345, trainLoss: 0.0022, valLoss: 0.7585, gap: [0.0655, B], brier: 0.082 },
 ];
 for (const r of bRep) {
   add({
@@ -626,7 +626,7 @@ for (const r of bRep) {
 }
 
 // --- Line B · Table II: readout and coordinate checks -----------------------
-const srcB2 = `${B}, Table II`;
+const srcB2 = B;
 const bReadout = [
   { key: 'original-vqc', model: 'VQC', family: 'hybrid', variant: 'Original head', title: 'Original VQC head on frozen learned embeddings', desc: 'Quantum head as trained jointly with each of the fifteen encoders.', train: 0.999307, val: 0.921474, valLoss: 0.286672 },
   { key: 'refitted-vqc', model: 'VQC', family: 'hybrid', variant: 'Re-fitted head', title: 'Re-fitted VQC head (three initializations per encoder)', desc: 'Quantum head retrained from three initializations on each frozen encoder.', train: 0.999291, val: 0.921837, valLoss: 0.28629 },
@@ -669,7 +669,7 @@ for (const r of bReadout) {
 }
 
 // --- Line B · Table III: pairwise geometry objectives and schedules ---------
-const srcB3 = `${B}, Table III`;
+const srcB3 = B;
 const bGeom = [
   { key: 'nqe-q', variant: 'NQE-Q', title: 'Staged neural quantum embedding, fidelity similarity (NQE-Q)', desc: '50 epochs of pairwise geometry training with quantum product-state fidelity k_Q, then 50 epochs of VQC classifier fitting.', train: 0.99796, val: 0.93003, valLoss: 0.29577, ba: 0.81752, schedule: 'staged', kernel: 'quantum fidelity' },
   { key: 'nqe-e', variant: 'NQE-E', title: 'Staged neural quantum embedding, Gaussian similarity (NQE-E)', desc: '50 epochs of pairwise geometry training with Gaussian similarity k_E, then 50 epochs of VQC classifier fitting.', train: 0.9982, val: 0.91493, valLoss: 0.30627, ba: 0.81064, schedule: 'staged', kernel: 'Gaussian' },
@@ -685,8 +685,8 @@ for (const r of bGeom) {
   ];
   if (r.key === 'nqe-q') {
     metrics.push(
-      m('recall_minority', 0.6702, 'validation', 'mean_over_folds_and_seeds', `${B}, Section IV-D`),
-      m('geometry_ratio', 0.9863, null, 'mean_over_folds_and_seeds', `${B}, Section IV-C`),
+      m('recall_minority', 0.6702, 'validation', 'mean_over_folds_and_seeds', B),
+      m('geometry_ratio', 0.9863, null, 'mean_over_folds_and_seeds', B),
     );
   }
   add({
@@ -739,12 +739,12 @@ add({
     'LR improved validation AUC in 10 of 15 paired fold–seed cells, but the 15 cells do not represent independent patients or independent confirmation.',
   limitations:
     'The VQC and LR differ in function family, output intercept and scale, optimizer and regularization. Equal coordinates do not make this a parameter-matched causal comparison. No significance test is claimed.',
-  source: `${B}, Section IV-D`,
+  source: B,
   metrics: [
-    m('roc_auc', 0.968277, 'train', 'mean_over_folds_and_seeds', `${B}, Section IV-D`),
-    m('roc_auc', 0.94152, 'validation', 'mean_over_folds_and_seeds', `${B}, Section IV-D`),
-    m('log_loss', 0.25597, 'validation', 'mean_over_folds_and_seeds', `${B}, Section IV-D`, 'nats'),
-    m('recall_minority', 0.7789, 'validation', 'mean_over_folds_and_seeds', `${B}, Section IV-D`),
+    m('roc_auc', 0.968277, 'train', 'mean_over_folds_and_seeds', B),
+    m('roc_auc', 0.94152, 'validation', 'mean_over_folds_and_seeds', B),
+    m('log_loss', 0.25597, 'validation', 'mean_over_folds_and_seeds', B, 'nats'),
+    m('recall_minority', 0.7789, 'validation', 'mean_over_folds_and_seeds', B),
   ],
 });
 
@@ -768,7 +768,7 @@ const foldDiffs: Array<{
     title: 'Readout difference on the same embedding (LR on z minus VQC)',
     sign: 'Positive values favor logistic regression on the frozen embedding.',
     values: [0.012, 0.012, 0.009, 0.035, -0.011],
-    figure: `${B}, Fig. 4 (data labels)`,
+    figure: B,
     factor: 'readout',
     mean: 0.01149,
     sd: 0.01638,
@@ -780,7 +780,7 @@ const foldDiffs: Array<{
     title: 'Fidelity minus Gaussian geometry, staged schedule (NQE)',
     sign: 'Positive values favor quantum-fidelity similarity.',
     values: [0.001, 0.023, 0.014, 0.003, 0.034],
-    figure: `${B}, Fig. 3 (data labels)`,
+    figure: B,
     factor: 'geometry',
   },
   {
@@ -790,7 +790,7 @@ const foldDiffs: Array<{
     title: 'Fidelity minus Gaussian geometry, joint schedule (Hybrid)',
     sign: 'Positive values favor quantum-fidelity similarity.',
     values: [-0.019, -0.011, -0.023, -0.002, 0.009],
-    figure: `${B}, Fig. 3 (data labels)`,
+    figure: B,
     factor: 'geometry',
   },
 ];
@@ -839,10 +839,10 @@ for (const d of foldDiffs) {
       observations: 'Fold 4 reversed the advantage.',
       limitations:
         'The standard deviation between fold means describes variation among reused partitions; it is not a confidence interval. The small mean difference and the reversed fold temper any claim of readout superiority.',
-      source: `${B}, Section IV-D`,
+      source: B,
       metrics: [
-        m('auc_difference', d.mean, 'validation', 'mean_over_folds_and_seeds', `${B}, Section IV-D`),
-        m('auc_difference', d.sd, 'validation', 'std_between_fold_means', `${B}, Section IV-D`),
+        m('auc_difference', d.mean, 'validation', 'mean_over_folds_and_seeds', B),
+        m('auc_difference', d.sd, 'validation', 'std_between_fold_means', B),
       ],
     });
   }
@@ -939,7 +939,7 @@ const comparisonSets = [
     factor: 'representation',
     name: 'Learned representations',
     rowLabel: 'Dataset',
-    description: 'PCA-4 and learned-encoder pipelines with quantum and logistic heads (Manuscript B Table I; gap and Brier from Manuscript A Table V).',
+    description: 'PCA-4 and learned-encoder pipelines with quantum and logistic heads (TCGA case study in the project repository; gap and Brier from the paper, Table V).',
     experiments: slugsWhere((e) => e.factor === 'representation'),
   },
   {
@@ -1007,7 +1007,7 @@ const questions = [
       {
         line: LINE_A,
         observation:
-          'Reducing to four components cost the classical models up to 0.066 test AUC on Ionosphere (SVM) and 0.186 on the synthetic data (XGBoost). Replacing the components by the four features with the highest F-value raised the VQC test AUC on Ionosphere by 0.040 and lowered it on the synthetic data by 0.047.',
+          'Reducing to four components cost the classical models up to 0.066 test AUC on Ionosphere (SVM) and 0.187 on the synthetic data (XGBoost). Replacing the components by the four features with the highest F-value raised the VQC test AUC on Ionosphere by 0.040 and lowered it on the synthetic data by 0.047.',
         interpretation:
           'The choice of reduction changes the sign of the VQC–MLP difference on Ionosphere (−0.033 to +0.010), so the representation is part of what a reported gap measures. Verdict for H1: partially supported.',
         limitations: 'Intervals are uncorrected and seeds are re-splits of the same data.',

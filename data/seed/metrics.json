@@ -6,7 +6,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-vqc-wdbc",
@@ -15,7 +15,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-vqc-wdbc",
@@ -24,7 +24,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-vqc-wdbc",
@@ -33,7 +33,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-lr-wdbc",
@@ -42,7 +42,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-lr-wdbc",
@@ -51,7 +51,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-svm-wdbc",
@@ -60,7 +60,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-svm-wdbc",
@@ -69,7 +69,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-rf-wdbc",
@@ -78,7 +78,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-rf-wdbc",
@@ -87,25 +87,25 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-xgboost-wdbc",
     "metricName": "roc_auc",
-    "value": 0.986,
+    "value": 0.985,
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-xgboost-wdbc",
     "metricName": "gen_gap",
-    "value": 0.014,
+    "value": 0.015,
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-wdbc",
@@ -114,7 +114,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-wdbc",
@@ -123,7 +123,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-wdbc",
@@ -132,7 +132,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-mlp-wdbc",
@@ -141,7 +141,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-vqc-ionosphere",
@@ -150,7 +150,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-vqc-ionosphere",
@@ -159,7 +159,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-vqc-ionosphere",
@@ -168,7 +168,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-vqc-ionosphere",
@@ -177,7 +177,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-lr-ionosphere",
@@ -186,7 +186,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-lr-ionosphere",
@@ -195,7 +195,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-svm-ionosphere",
@@ -204,7 +204,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-svm-ionosphere",
@@ -213,7 +213,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-rf-ionosphere",
@@ -222,7 +222,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-rf-ionosphere",
@@ -231,7 +231,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-xgboost-ionosphere",
@@ -240,7 +240,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-xgboost-ionosphere",
@@ -249,7 +249,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-ionosphere",
@@ -258,7 +258,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-ionosphere",
@@ -267,7 +267,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-ionosphere",
@@ -276,7 +276,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-mlp-ionosphere",
@@ -285,7 +285,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-vqc-synthetic",
@@ -294,7 +294,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-vqc-synthetic",
@@ -303,7 +303,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-vqc-synthetic",
@@ -312,7 +312,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-vqc-synthetic",
@@ -321,7 +321,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-lr-synthetic",
@@ -330,7 +330,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-lr-synthetic",
@@ -339,7 +339,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-svm-synthetic",
@@ -348,7 +348,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-svm-synthetic",
@@ -357,7 +357,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-rf-synthetic",
@@ -366,7 +366,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-rf-synthetic",
@@ -375,7 +375,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-xgboost-synthetic",
@@ -384,7 +384,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-xgboost-synthetic",
@@ -393,7 +393,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-synthetic",
@@ -402,7 +402,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-synthetic",
@@ -411,7 +411,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-synthetic",
@@ -420,7 +420,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-mlp-synthetic",
@@ -429,7 +429,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-vqc-blood-transfusion",
@@ -438,7 +438,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-vqc-blood-transfusion",
@@ -447,7 +447,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-vqc-blood-transfusion",
@@ -456,7 +456,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-vqc-blood-transfusion",
@@ -465,7 +465,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-lr-blood-transfusion",
@@ -474,7 +474,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-lr-blood-transfusion",
@@ -483,7 +483,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-svm-blood-transfusion",
@@ -492,7 +492,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-svm-blood-transfusion",
@@ -501,7 +501,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-rf-blood-transfusion",
@@ -510,7 +510,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-rf-blood-transfusion",
@@ -519,7 +519,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-xgboost-blood-transfusion",
@@ -528,7 +528,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-xgboost-blood-transfusion",
@@ -537,7 +537,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-blood-transfusion",
@@ -546,7 +546,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-blood-transfusion",
@@ -555,7 +555,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table I"
+    "source": "Paper, Table I"
   },
   {
     "experiment": "a-baseline-mlp-blood-transfusion",
@@ -564,7 +564,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-baseline-mlp-blood-transfusion",
@@ -573,7 +573,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-encoding-vqc-add-k1",
@@ -582,7 +582,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-add-k1",
@@ -591,7 +591,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-reupload-add-k1",
@@ -600,7 +600,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-x2-add-k1",
@@ -609,7 +609,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-add-k1",
@@ -618,7 +618,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-add-k1",
@@ -627,7 +627,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-add-k2",
@@ -636,7 +636,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-add-k2",
@@ -645,7 +645,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-reupload-add-k2",
@@ -654,7 +654,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-x2-add-k2",
@@ -663,7 +663,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-add-k2",
@@ -672,7 +672,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-add-k2",
@@ -681,7 +681,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-add-k3",
@@ -690,7 +690,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-add-k3",
@@ -699,7 +699,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-reupload-add-k3",
@@ -708,7 +708,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-x2-add-k3",
@@ -717,7 +717,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-add-k3",
@@ -726,7 +726,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-add-k3",
@@ -735,7 +735,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-prod-k1",
@@ -744,7 +744,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-prod-k1",
@@ -753,7 +753,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-reupload-prod-k1",
@@ -762,7 +762,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-x2-prod-k1",
@@ -771,7 +771,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-prod-k1",
@@ -780,7 +780,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-prod-k1",
@@ -789,7 +789,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-prod-k2",
@@ -798,7 +798,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-prod-k2",
@@ -807,7 +807,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-reupload-prod-k2",
@@ -816,7 +816,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-x2-prod-k2",
@@ -825,7 +825,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-prod-k2",
@@ -834,7 +834,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-prod-k2",
@@ -843,7 +843,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-prod-k3",
@@ -852,7 +852,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-prod-k3",
@@ -861,7 +861,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-reupload-prod-k3",
@@ -870,7 +870,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-vqc-x2-prod-k3",
@@ -879,7 +879,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-prod-k3",
@@ -888,7 +888,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-encoding-mlp-prod-k3",
@@ -897,7 +897,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table II"
+    "source": "Paper, Table II"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-wdbc",
@@ -906,7 +906,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-wdbc",
@@ -915,7 +915,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-wdbc",
@@ -924,7 +924,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-wdbc",
@@ -933,7 +933,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-wdbc",
@@ -942,7 +942,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-wdbc",
@@ -951,7 +951,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-wdbc",
@@ -960,7 +960,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-wdbc",
@@ -969,7 +969,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-wdbc",
@@ -978,7 +978,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-wdbc",
@@ -987,7 +987,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-wdbc",
@@ -996,7 +996,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-wdbc",
@@ -1005,7 +1005,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-wdbc",
@@ -1014,7 +1014,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-wdbc",
@@ -1023,7 +1023,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-wdbc",
@@ -1032,7 +1032,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-wdbc",
@@ -1041,7 +1041,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-wdbc",
@@ -1050,7 +1050,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-wdbc",
@@ -1059,7 +1059,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-wdbc",
@@ -1068,7 +1068,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-wdbc",
@@ -1077,7 +1077,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-wdbc",
@@ -1086,7 +1086,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-wdbc",
@@ -1095,7 +1095,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-wdbc",
@@ -1104,7 +1104,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-wdbc",
@@ -1113,7 +1113,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-ionosphere",
@@ -1122,7 +1122,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-ionosphere",
@@ -1131,7 +1131,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-ionosphere",
@@ -1140,7 +1140,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-ionosphere",
@@ -1149,7 +1149,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-ionosphere",
@@ -1158,7 +1158,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-ionosphere",
@@ -1167,7 +1167,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-ionosphere",
@@ -1176,7 +1176,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-ionosphere",
@@ -1185,7 +1185,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-ionosphere",
@@ -1194,7 +1194,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-ionosphere",
@@ -1203,7 +1203,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-ionosphere",
@@ -1212,7 +1212,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-ionosphere",
@@ -1221,7 +1221,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-ionosphere",
@@ -1230,7 +1230,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-ionosphere",
@@ -1239,7 +1239,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-ionosphere",
@@ -1248,7 +1248,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-ionosphere",
@@ -1257,7 +1257,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-ionosphere",
@@ -1266,7 +1266,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-ionosphere",
@@ -1275,7 +1275,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-ionosphere",
@@ -1284,7 +1284,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-ionosphere",
@@ -1293,7 +1293,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-ionosphere",
@@ -1302,7 +1302,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-ionosphere",
@@ -1311,7 +1311,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-ionosphere",
@@ -1320,7 +1320,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-ionosphere",
@@ -1329,7 +1329,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-synthetic",
@@ -1338,7 +1338,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-synthetic",
@@ -1347,7 +1347,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-synthetic",
@@ -1356,7 +1356,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-synthetic",
@@ -1365,7 +1365,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-synthetic",
@@ -1374,7 +1374,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-synthetic",
@@ -1383,7 +1383,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-synthetic",
@@ -1392,7 +1392,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-synthetic",
@@ -1401,7 +1401,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-synthetic",
@@ -1410,7 +1410,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-synthetic",
@@ -1419,7 +1419,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-synthetic",
@@ -1428,7 +1428,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-synthetic",
@@ -1437,7 +1437,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-synthetic",
@@ -1446,7 +1446,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-synthetic",
@@ -1455,7 +1455,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-synthetic",
@@ -1464,7 +1464,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-synthetic",
@@ -1473,7 +1473,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-synthetic",
@@ -1482,7 +1482,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-synthetic",
@@ -1491,7 +1491,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-synthetic",
@@ -1500,7 +1500,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-synthetic",
@@ -1509,7 +1509,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-synthetic",
@@ -1518,7 +1518,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-synthetic",
@@ -1527,7 +1527,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-synthetic",
@@ -1536,7 +1536,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-synthetic",
@@ -1545,7 +1545,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-blood-transfusion",
@@ -1554,7 +1554,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-blood-transfusion",
@@ -1563,7 +1563,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-blood-transfusion",
@@ -1572,7 +1572,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-1-layer-blood-transfusion",
@@ -1581,7 +1581,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-blood-transfusion",
@@ -1590,7 +1590,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-blood-transfusion",
@@ -1599,7 +1599,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-blood-transfusion",
@@ -1608,7 +1608,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-2-hidden-blood-transfusion",
@@ -1617,7 +1617,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-blood-transfusion",
@@ -1626,7 +1626,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-blood-transfusion",
@@ -1635,7 +1635,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-blood-transfusion",
@@ -1644,7 +1644,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-4-layers-blood-transfusion",
@@ -1653,7 +1653,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-blood-transfusion",
@@ -1662,7 +1662,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-blood-transfusion",
@@ -1671,7 +1671,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-blood-transfusion",
@@ -1680,7 +1680,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-mlp-6-hidden-blood-transfusion",
@@ -1689,7 +1689,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-blood-transfusion",
@@ -1698,7 +1698,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-blood-transfusion",
@@ -1707,7 +1707,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-blood-transfusion",
@@ -1716,7 +1716,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-entanglement-blood-transfusion",
@@ -1725,7 +1725,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-blood-transfusion",
@@ -1734,7 +1734,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-blood-transfusion",
@@ -1743,7 +1743,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-blood-transfusion",
@@ -1752,7 +1752,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-capacity-vqc-no-linear-head-blood-transfusion",
@@ -1761,7 +1761,7 @@
     "split": null,
     "aggregation": null,
     "unit": null,
-    "source": "Manuscript A, Table III"
+    "source": "Paper, Table III"
   },
   {
     "experiment": "a-training-size-vqc-10pct-wdbc",
@@ -1770,7 +1770,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H4)"
+    "source": "Paper, Section IV-B (H4)"
   },
   {
     "experiment": "a-training-size-vqc-10pct-ionosphere",
@@ -1779,7 +1779,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H4)"
+    "source": "Paper, Section IV-B (H4)"
   },
   {
     "experiment": "a-training-size-vqc-10pct-synthetic",
@@ -1788,7 +1788,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H4)"
+    "source": "Paper, Section IV-B (H4)"
   },
   {
     "experiment": "a-training-size-vqc-10pct-blood-transfusion",
@@ -1797,7 +1797,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H4)"
+    "source": "Paper, Section IV-B (H4)"
   },
   {
     "experiment": "a-optimization-vqc-25ep-wdbc",
@@ -1806,7 +1806,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H5)"
+    "source": "Paper, Section IV-B (H5)"
   },
   {
     "experiment": "a-optimization-vqc-800ep-wdbc",
@@ -1815,7 +1815,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H5)"
+    "source": "Paper, Section IV-B (H5)"
   },
   {
     "experiment": "a-optimization-vqc-25ep-ionosphere",
@@ -1824,7 +1824,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H5)"
+    "source": "Paper, Section IV-B (H5)"
   },
   {
     "experiment": "a-optimization-vqc-800ep-ionosphere",
@@ -1833,7 +1833,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H5)"
+    "source": "Paper, Section IV-B (H5)"
   },
   {
     "experiment": "a-optimization-vqc-25ep-synthetic",
@@ -1842,7 +1842,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H5)"
+    "source": "Paper, Section IV-B (H5)"
   },
   {
     "experiment": "a-optimization-vqc-800ep-synthetic",
@@ -1851,7 +1851,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H5)"
+    "source": "Paper, Section IV-B (H5)"
   },
   {
     "experiment": "a-optimization-vqc-25ep-blood-transfusion",
@@ -1860,7 +1860,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H5)"
+    "source": "Paper, Section IV-B (H5)"
   },
   {
     "experiment": "a-optimization-vqc-800ep-blood-transfusion",
@@ -1869,7 +1869,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (H5)"
+    "source": "Paper, Section IV-B (H5)"
   },
   {
     "experiment": "a-teacher-encoder-net-wdbc",
@@ -1878,7 +1878,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-encoder-net-wdbc",
@@ -1887,7 +1887,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-lr-on-enc-wdbc",
@@ -1896,7 +1896,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-lr-on-enc-wdbc",
@@ -1905,7 +1905,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-wdbc",
@@ -1914,7 +1914,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-wdbc",
@@ -1923,7 +1923,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-half-wdbc",
@@ -1932,7 +1932,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-half-wdbc",
@@ -1941,7 +1941,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-encoder-net-ionosphere",
@@ -1950,7 +1950,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-encoder-net-ionosphere",
@@ -1959,7 +1959,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-lr-on-enc-ionosphere",
@@ -1968,7 +1968,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-lr-on-enc-ionosphere",
@@ -1977,7 +1977,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-ionosphere",
@@ -1986,7 +1986,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-ionosphere",
@@ -1995,7 +1995,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-half-ionosphere",
@@ -2004,7 +2004,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-half-ionosphere",
@@ -2013,7 +2013,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-encoder-net-synthetic",
@@ -2022,7 +2022,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-encoder-net-synthetic",
@@ -2031,7 +2031,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-lr-on-enc-synthetic",
@@ -2040,7 +2040,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-lr-on-enc-synthetic",
@@ -2049,7 +2049,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-synthetic",
@@ -2058,7 +2058,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-synthetic",
@@ -2067,7 +2067,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-half-synthetic",
@@ -2076,7 +2076,7 @@
     "split": "test",
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-teacher-vqc-on-enc-half-synthetic",
@@ -2085,7 +2085,7 @@
     "split": null,
     "aggregation": "mean_over_seeds",
     "unit": null,
-    "source": "Manuscript A, Table IV"
+    "source": "Paper, Table IV"
   },
   {
     "experiment": "a-shuffled-labels-vqc",
@@ -2094,7 +2094,7 @@
     "split": "train",
     "aggregation": "range_min",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (Baseline)"
+    "source": "Paper, Section IV-B (Baseline)"
   },
   {
     "experiment": "a-shuffled-labels-vqc",
@@ -2103,7 +2103,7 @@
     "split": "train",
     "aggregation": "range_max",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (Baseline)"
+    "source": "Paper, Section IV-B (Baseline)"
   },
   {
     "experiment": "a-shuffled-labels-mlp",
@@ -2112,7 +2112,7 @@
     "split": "train",
     "aggregation": "range_min",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (Baseline)"
+    "source": "Paper, Section IV-B (Baseline)"
   },
   {
     "experiment": "a-shuffled-labels-mlp",
@@ -2121,7 +2121,7 @@
     "split": "train",
     "aggregation": "range_max",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (Baseline)"
+    "source": "Paper, Section IV-B (Baseline)"
   },
   {
     "experiment": "a-shuffled-labels-rf",
@@ -2130,7 +2130,7 @@
     "split": "train",
     "aggregation": "range_min",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (Baseline)"
+    "source": "Paper, Section IV-B (Baseline)"
   },
   {
     "experiment": "a-shuffled-labels-rf",
@@ -2139,7 +2139,7 @@
     "split": "train",
     "aggregation": "range_max",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (Baseline)"
+    "source": "Paper, Section IV-B (Baseline)"
   },
   {
     "experiment": "a-shuffled-labels-xgboost",
@@ -2148,7 +2148,7 @@
     "split": "train",
     "aggregation": "range_min",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (Baseline)"
+    "source": "Paper, Section IV-B (Baseline)"
   },
   {
     "experiment": "a-shuffled-labels-xgboost",
@@ -2157,7 +2157,7 @@
     "split": "train",
     "aggregation": "range_max",
     "unit": null,
-    "source": "Manuscript A, Section IV-B (Baseline)"
+    "source": "Paper, Section IV-B (Baseline)"
   },
   {
     "experiment": "b-representation-pca4-vqc",
@@ -2166,7 +2166,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-pca4-vqc",
@@ -2175,7 +2175,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-pca4-vqc",
@@ -2184,7 +2184,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-pca4-vqc",
@@ -2193,7 +2193,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-pca4-vqc",
@@ -2202,7 +2202,7 @@
     "split": null,
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript A, Table V"
+    "source": "Paper, Table V"
   },
   {
     "experiment": "b-representation-pca4-vqc",
@@ -2211,7 +2211,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript A, Table V"
+    "source": "Paper, Table V"
   },
   {
     "experiment": "b-representation-pca4-lr",
@@ -2220,7 +2220,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-pca4-lr",
@@ -2229,7 +2229,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-pca4-lr",
@@ -2238,7 +2238,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-pca4-lr",
@@ -2247,7 +2247,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-pca4-lr",
@@ -2256,7 +2256,7 @@
     "split": null,
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript A, Table V"
+    "source": "Paper, Table V"
   },
   {
     "experiment": "b-representation-pca4-lr",
@@ -2265,7 +2265,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript A, Table V"
+    "source": "Paper, Table V"
   },
   {
     "experiment": "b-representation-encoder-vqc",
@@ -2274,7 +2274,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-encoder-vqc",
@@ -2283,7 +2283,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-encoder-vqc",
@@ -2292,7 +2292,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-encoder-vqc",
@@ -2301,7 +2301,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-encoder-vqc",
@@ -2310,7 +2310,7 @@
     "split": null,
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Section IV-A"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-encoder-vqc",
@@ -2319,7 +2319,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript A, Table V"
+    "source": "Paper, Table V"
   },
   {
     "experiment": "b-representation-frozen-encoder-lr",
@@ -2328,7 +2328,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-frozen-encoder-lr",
@@ -2337,7 +2337,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-frozen-encoder-lr",
@@ -2346,7 +2346,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-frozen-encoder-lr",
@@ -2355,7 +2355,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-frozen-encoder-lr",
@@ -2364,7 +2364,7 @@
     "split": null,
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript A, Table V"
+    "source": "Paper, Table V"
   },
   {
     "experiment": "b-representation-frozen-encoder-lr",
@@ -2373,7 +2373,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript A, Table V"
+    "source": "Paper, Table V"
   },
   {
     "experiment": "b-representation-classical-encoder-lr",
@@ -2382,7 +2382,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-classical-encoder-lr",
@@ -2391,7 +2391,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-classical-encoder-lr",
@@ -2400,7 +2400,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-classical-encoder-lr",
@@ -2409,7 +2409,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table I"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-classical-encoder-lr",
@@ -2418,7 +2418,7 @@
     "split": null,
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Section IV-A"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-representation-classical-encoder-lr",
@@ -2427,7 +2427,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript A, Table V"
+    "source": "Paper, Table V"
   },
   {
     "experiment": "b-readout-original-vqc",
@@ -2436,7 +2436,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-readout-original-vqc",
@@ -2445,7 +2445,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-readout-original-vqc",
@@ -2454,7 +2454,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-readout-refitted-vqc",
@@ -2463,7 +2463,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-readout-refitted-vqc",
@@ -2472,7 +2472,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-readout-refitted-vqc",
@@ -2481,7 +2481,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-readout-lr-latent",
@@ -2490,7 +2490,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-readout-lr-latent",
@@ -2499,7 +2499,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-readout-lr-latent",
@@ -2508,7 +2508,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-readout-lr-angles",
@@ -2517,7 +2517,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-readout-lr-angles",
@@ -2526,7 +2526,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-readout-lr-angles",
@@ -2535,7 +2535,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table II"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-nqe-q",
@@ -2544,7 +2544,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-nqe-q",
@@ -2553,7 +2553,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-nqe-q",
@@ -2562,7 +2562,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-nqe-q",
@@ -2571,7 +2571,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-nqe-q",
@@ -2580,7 +2580,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Section IV-D"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-nqe-q",
@@ -2589,7 +2589,7 @@
     "split": null,
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Section IV-C"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-nqe-e",
@@ -2598,7 +2598,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-nqe-e",
@@ -2607,7 +2607,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-nqe-e",
@@ -2616,7 +2616,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-nqe-e",
@@ -2625,7 +2625,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-hybrid-q",
@@ -2634,7 +2634,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-hybrid-q",
@@ -2643,7 +2643,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-hybrid-q",
@@ -2652,7 +2652,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-hybrid-q",
@@ -2661,7 +2661,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-hybrid-e",
@@ -2670,7 +2670,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-hybrid-e",
@@ -2679,7 +2679,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-hybrid-e",
@@ -2688,7 +2688,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-geometry-hybrid-e",
@@ -2697,7 +2697,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Table III"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-same-embedding-lr-z",
@@ -2706,7 +2706,7 @@
     "split": "train",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Section IV-D"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-same-embedding-lr-z",
@@ -2715,7 +2715,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Section IV-D"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-same-embedding-lr-z",
@@ -2724,7 +2724,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": "nats",
-    "source": "Manuscript B, Section IV-D"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-same-embedding-lr-z",
@@ -2733,7 +2733,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Section IV-D"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-readout-lr-minus-vqc-f0",
@@ -2742,7 +2742,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 4 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-readout-lr-minus-vqc-f1",
@@ -2751,7 +2751,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 4 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-readout-lr-minus-vqc-f2",
@@ -2760,7 +2760,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 4 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-readout-lr-minus-vqc-f3",
@@ -2769,7 +2769,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 4 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-readout-lr-minus-vqc-f4",
@@ -2778,7 +2778,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 4 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-readout-lr-minus-vqc-mean",
@@ -2787,7 +2787,7 @@
     "split": "validation",
     "aggregation": "mean_over_folds_and_seeds",
     "unit": null,
-    "source": "Manuscript B, Section IV-D"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-readout-lr-minus-vqc-mean",
@@ -2796,7 +2796,7 @@
     "split": "validation",
     "aggregation": "std_between_fold_means",
     "unit": null,
-    "source": "Manuscript B, Section IV-D"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-nqe-fidelity-minus-gaussian-f0",
@@ -2805,7 +2805,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 3 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-nqe-fidelity-minus-gaussian-f1",
@@ -2814,7 +2814,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 3 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-nqe-fidelity-minus-gaussian-f2",
@@ -2823,7 +2823,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 3 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-nqe-fidelity-minus-gaussian-f3",
@@ -2832,7 +2832,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 3 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-nqe-fidelity-minus-gaussian-f4",
@@ -2841,7 +2841,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 3 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-hybrid-fidelity-minus-gaussian-f0",
@@ -2850,7 +2850,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 3 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-hybrid-fidelity-minus-gaussian-f1",
@@ -2859,7 +2859,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 3 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-hybrid-fidelity-minus-gaussian-f2",
@@ -2868,7 +2868,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 3 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-hybrid-fidelity-minus-gaussian-f3",
@@ -2877,7 +2877,7 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 3 (data labels)"
+    "source": "Repository, TCGA case study"
   },
   {
     "experiment": "b-fold-hybrid-fidelity-minus-gaussian-f4",
@@ -2886,6 +2886,6 @@
     "split": "validation",
     "aggregation": "fold_mean_over_seeds",
     "unit": null,
-    "source": "Manuscript B, Fig. 3 (data labels)"
+    "source": "Repository, TCGA case study"
   }
 ]

@@ -341,7 +341,7 @@ function ExperimentEditor({
         <Field label="Limitations / notes" className="sm:col-span-2">
           <Textarea name="limitations" rows={2} defaultValue={experiment?.limitations ?? ''} />
         </Field>
-        <Field label="Source" className="sm:col-span-2" hint="Where the numbers were published, e.g. “Manuscript A, Table III”.">
+        <Field label="Source" className="sm:col-span-2" hint="Where the numbers were reported, e.g. “Paper, Table III”.">
           <Input name="source" required defaultValue={experiment?.source} />
         </Field>
         <fieldset className="sm:col-span-2">
@@ -524,7 +524,7 @@ function MetricEditor({ experiment, onChanged }: { experiment: DetailWithSets; o
   return (
     <section className="mt-8 border-t border-line pt-6">
       <h3 className="text-base font-bold">Metrics</h3>
-      <p className="text-xs text-ink-3">Values are stored as numbers. Do not attach values published for another configuration.</p>
+      <p className="text-xs text-ink-3">Values are stored as numbers. Do not attach values reported for another configuration.</p>
       <ul className="mt-3 divide-y divide-line rounded-2xl ring-1 ring-line">
         {experiment.metrics.length === 0 && <li className="px-3 py-3 text-sm text-ink-3">No metrics yet.</li>}
         {experiment.metrics.map((m: Metric) => (

@@ -8,7 +8,7 @@
     "findings": [
       {
         "line": "factors-behind-generalization",
-        "observation": "Reducing to four components cost the classical models up to 0.066 test AUC on Ionosphere (SVM) and 0.186 on the synthetic data (XGBoost). Replacing the components by the four features with the highest F-value raised the VQC test AUC on Ionosphere by 0.040 and lowered it on the synthetic data by 0.047.",
+        "observation": "Reducing to four components cost the classical models up to 0.066 test AUC on Ionosphere (SVM) and 0.187 on the synthetic data (XGBoost). Replacing the components by the four features with the highest F-value raised the VQC test AUC on Ionosphere by 0.040 and lowered it on the synthetic data by 0.047.",
         "interpretation": "The choice of reduction changes the sign of the VQC–MLP difference on Ionosphere (−0.033 to +0.010), so the representation is part of what a reported gap measures. Verdict for H1: partially supported.",
         "limitations": "Intervals are uncorrected and seeds are re-splits of the same data.",
         "experiments": [

@@ -299,7 +299,7 @@ function QuantitativeComparison() {
             <SectionHeader
               icon={<Table2 />}
               title="Metric table"
-              description="Published values with their aggregation level. Δ is a descriptive difference of published means within this set — not a statistical test."
+              description="Reported values with their aggregation level. Δ is a descriptive difference of reported means within this set — not a statistical test."
               actions={
                 pointRows.length > 1 && reference ? (
                   <div className="flex items-center gap-2 text-xs text-ink-3">
@@ -417,7 +417,7 @@ function EvidenceSynthesis() {
   }, {});
 
   if (data.questions.length === 0)
-    return <EmptyState title="No published findings yet" description="Findings appear here once researchers publish them." />;
+    return <EmptyState title="No findings available yet." />;
 
   return (
     <div className="space-y-6">
@@ -426,7 +426,7 @@ function EvidenceSynthesis() {
           <h2 className="text-lg font-bold">How to read this synthesis</h2>
           <p className="mt-2 text-sm leading-relaxed text-ink-2">
             Each question places the findings of both lines side by side. They were written and reviewed by the researchers
-            from the manuscripts — nothing here is generated automatically. Because protocols differ, agreement is judged
+            from the paper and the project repository — nothing here is generated automatically. Because protocols differ, agreement is judged
             qualitatively: the direction of an effect, not the size of a number.
           </p>
           <nav aria-label="Questions" className="mt-4 flex flex-wrap gap-1.5">

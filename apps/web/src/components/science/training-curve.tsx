@@ -14,7 +14,7 @@ export function TrainingCurve({ points }: { points: TrainingPoint[] }) {
         compact
         icon={<LineIcon />}
         title="No per-epoch history recorded"
-        description="The manuscripts report final metrics only. A curve appears here once researchers upload real per-epoch losses; it is never reconstructed from final values."
+        description="The paper reports final metrics only. A curve appears here once researchers upload real per-epoch losses; it is never reconstructed from final values."
       />
     );
   }

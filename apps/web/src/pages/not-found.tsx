@@ -10,7 +10,7 @@ export default function NotFoundPage() {
       <EmptyState
         icon={<Compass />}
         title="This page drifted away"
-        description="The address does not match any page or published experiment."
+        description="The address does not match any page or available experiment."
         action={
           <Button asChild variant="aero">
             <Link to="/explore">Explore experiments</Link>

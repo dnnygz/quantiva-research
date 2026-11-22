@@ -154,7 +154,7 @@ function ExperimentView({ exp }: { exp: ExperimentDetail }) {
         <div className="min-w-0 space-y-6">
           {/* Metrics */}
           <Panel className="p-5 sm:p-6">
-            <SectionHeader icon={<FlaskConical />} title="Metrics" description="Each value as published, with its split and aggregation level." />
+            <SectionHeader icon={<FlaskConical />} title="Metrics" description="Each value as reported, with its split and aggregation level." />
             <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
               {metricRows.map((m) => {
                 const def = metricDefinition(m.metricName);

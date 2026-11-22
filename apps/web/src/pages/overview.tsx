@@ -84,7 +84,7 @@ export default function OverviewPage() {
                 {[
                   [String(lines.length), 'research lines'],
                   [String(datasetCount), 'datasets'],
-                  [String(data.experiments.length), 'published results'],
+                  [String(data.experiments.length), 'reported results'],
                   ['4', 'qubits, noise-free simulation'],
                 ].map(([v, l]) => (
                   <div key={l} className="flex items-baseline gap-2">
@@ -131,7 +131,7 @@ export default function OverviewPage() {
           id="lines"
           icon={<Layers />}
           title="Experimental lines"
-          description="Two complementary lines of evidence that will be synthesized into a single manuscript. Their protocols differ, so their numbers are compared qualitatively."
+          description="Two lines of research in a single paper: Line A is the main controlled study and Line B is a complementary TCGA-BRCA case study. Their protocols differ, so their numbers are compared qualitatively."
         />
         <div className="grid gap-5 lg:grid-cols-2">
           {lines.map((line) => {
@@ -159,7 +159,7 @@ export default function OverviewPage() {
                   <LineBadge line={line} />
                   <h3 className="mt-4 text-2xl font-bold">{line.name}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-ink-2">{line.description}</p>
-                  <p className="mt-4 text-xs leading-relaxed text-ink-3 italic">“{line.manuscriptTitle}”</p>
+                  <p className="mt-4 text-xs leading-relaxed text-ink-3 italic">{line.manuscriptTitle}</p>
                   <div className="mt-5 flex flex-wrap gap-1.5">
                     {factors.map((f) => (
                       <span key={f} className="rounded-full bg-white/80 px-2.5 py-1 text-xs font-medium text-ink-2 ring-1 ring-line">
@@ -194,7 +194,7 @@ export default function OverviewPage() {
           id="findings"
           icon={<BookOpenCheck />}
           title="Key findings"
-          description="Curated by the researchers from both manuscripts. Each comes with its limits; numbers are exploratory and come from noise-free simulation."
+          description="Curated by the researchers from the paper and the project repository. Each comes with its limits; numbers are exploratory and come from noise-free simulation."
           actions={
             <Button asChild variant="ghost" size="sm">
               <Link to="/compare?mode=synthesis">

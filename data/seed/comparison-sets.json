@@ -212,7 +212,7 @@
     "factor": "representation",
     "name": "Learned representations",
     "rowLabel": "Dataset",
-    "description": "PCA-4 and learned-encoder pipelines with quantum and logistic heads (Manuscript B Table I; gap and Brier from Manuscript A Table V).",
+    "description": "PCA-4 and learned-encoder pipelines with quantum and logistic heads (TCGA case study in the project repository; gap and Brier from the paper, Table V).",
     "experiments": [
       "b-representation-pca4-vqc",
       "b-representation-pca4-lr",

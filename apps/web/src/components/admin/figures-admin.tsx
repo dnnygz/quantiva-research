@@ -144,7 +144,7 @@ function FigureForm({ figure, experiments, onDone }: { figure?: Figure; experime
       <Field label="Description / caption">
         <Textarea name="description" rows={3} defaultValue={figure?.description} />
       </Field>
-      <Field label="Source" hint="e.g. Manuscript B, Fig. 2">
+      <Field label="Source" hint="e.g. Repository, TCGA case study, Fig. 2">
         <Input name="source" defaultValue={figure?.source ?? ''} />
       </Field>
       <Field label="Research line">

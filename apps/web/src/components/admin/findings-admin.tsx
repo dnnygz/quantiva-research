@@ -267,7 +267,7 @@ function FindingForm({
           <option value="published">Published</option>
         </NativeSelect>
       </Field>
-      <Field label="Observation" className="sm:col-span-2" hint="What was measured, with the published numbers.">
+      <Field label="Observation" className="sm:col-span-2" hint="What was measured, with the reported numbers.">
         <Textarea name="observation" rows={4} required defaultValue={finding?.observation} />
       </Field>
       <Field label="Interpretation" className="sm:col-span-2">

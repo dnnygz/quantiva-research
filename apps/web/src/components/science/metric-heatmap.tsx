@@ -255,7 +255,7 @@ export function MetricHeatmap({
                                   ? formatPublished(v.value)
                                   : v.kind === 'range'
                                     ? `${formatPublished(v.min)}–${formatPublished(v.max)} (range)`
-                                    : 'not reported in the manuscripts'}
+                                    : 'not reported in the paper'}
                               </span>
                             </p>
                             {v.kind !== 'missing' && (
