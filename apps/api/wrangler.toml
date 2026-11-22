@@ -19,5 +19,5 @@ bucket_name = "quantum-aware-figures"
 # Local defaults. In production set FRONTEND_ORIGIN to the Pages URL and COOKIE_SECURE = "true"
 # (e.g. via [env.production.vars] or the dashboard).
 [vars]
-FRONTEND_ORIGIN = "http://localhost:5173"
-COOKIE_SECURE = "false"
+FRONTEND_ORIGIN = "https://quantiva-research.pages.dev"
+COOKIE_SECURE = "true"
