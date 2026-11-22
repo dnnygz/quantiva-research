@@ -9,7 +9,7 @@ compatibility_flags = ["nodejs_compat"]
 # Local development gets its connection string from DATABASE_URL via scripts/dev.mjs.
 [[hyperdrive]]
 binding = "HYPERDRIVE"
-id = "00000000000000000000000000000000"
+id = "73e50b2d49e640b1b851321cc2e0e06d"
 
 # Figure images. Create with: npx wrangler r2 bucket create quantum-aware-figures
 [[r2_buckets]]
